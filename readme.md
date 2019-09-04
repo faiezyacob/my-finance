@@ -12,9 +12,9 @@ A web app to monitor you monthly saving to reach your desired goal and does basi
 
 ## Screenshots
 
-<a href="https://ibb.co/FKh4XqJ"></a>
-<a href="https://ibb.co/BTrXv87"></a>
-<a href="https://ibb.co/GnBbGRx"></a>
+<a href="https://ibb.co/FKh4XqJ"><img src="https://ibb.co/FKh4XqJ" alt="image" border="0"></a>
+<a href="https://ibb.co/BTrXv87"><img src="https://ibb.co/BTrXv87" alt="image" border="0"></a>
+<a href="https://ibb.co/GnBbGRx"><img src="https://ibb.co/GnBbGRx" alt="image" border="0"></a>
 
 ## Demo
 You can try this out <a href="">TBA</a>
