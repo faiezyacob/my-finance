@@ -1,6 +1,6 @@
 ## About myfinance
 
-A web app to monitor you monthly saving to reach your desired goal and does basic calculation based on your monthly salary to recommend you the best saving amount.
+A web app to monitor you monthly saving to reach your desired goal and does basic calculation based on your monthly salary to recommend you the best saving amount made using Laravel.
 
 ## How to install
 1. Clone this project to your directory
