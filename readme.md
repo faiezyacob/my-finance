@@ -12,7 +12,9 @@ A web app to monitor you monthly saving to reach your desired goal and does basi
 
 ## Screenshots
 
-TBA
+<a href="https://ibb.co/FKh4XqJ"></a>
+<a href="https://ibb.co/BTrXv87"></a>
+<a href="https://ibb.co/GnBbGRx"></a>
 
 ## Demo
 You can try this out <a href="">TBA</a>
