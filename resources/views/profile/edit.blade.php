@@ -34,7 +34,7 @@
 
                             <div class="pl-lg-4">
                                 <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-name">{{ __('Salary (RM)') }}</label>
+                                    <label class="form-control-label" for="input-name">{{ __('Nett Salary (RM)') }}</label>
                                     <input type="text" name="salary" id="input-name" class="form-control form-control-alternative{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ __('Salary') }}" value="{{ auth()->user()->salary }}" autofocus>
 
                                     @if ($errors->has('name'))
@@ -44,7 +44,7 @@
                                     @endif
                                 </div>
                                 <p>You earned RM{{ (auth()->user()->salary == null) ? 0 : auth()->user()->salary }} per month, you are advised to commit 20% from your salary which is RM{{ auth()->user()->salary*0.2 }}. <br>
-                                <b>Note: for first time user you need to enter your salary first. Then, we'll do the calculation for you.</b>
+                                <b>Note: Enter your nett salary first. Then, we'll do the calculation for you.</b>
                                 </p>
                                 
                                 <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">

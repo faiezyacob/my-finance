@@ -25,19 +25,13 @@
 
                             <h6 class="heading-small text-muted mb-4">{{ __('User information') }}</h6>
                             <div class="pl-lg-4">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="input-type">{{ __('Description')}}</label>
+                                    <input type="text" name="description" id="input-name" class="form-control form-control-alternative{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ __('Type (e.g: Marriage, Travel, Phone, etc.)') }}" value="{{ $goal->description }}" autofocus>
+                                </div>
                                 <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
                                     <label class="form-control-label" for="input-amount">{{ __('Amount') }}</label>
                                     <input type="text" name="amount" id="input-name" class="form-control" placeholder="{{ __('Amount') }}" value="{{ $goal->goal }}" required autofocus>
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-control-label" for="input-type">{{ __('Type') }}</label>
-                                    <select name="type" class="form-control">
-                                        <option value="Marriage" {{ ( $goal->type == "Marriage") ? 'selected' : '' }}>Marriage</option>
-                                        <option value="Loan" {{ ( $goal->type == "Loan") ? 'selected' : '' }}>Loan</option>
-                                        <option value="Car" {{ ( $goal->type == "Car") ? 'selected' : '' }}>Car</option>
-                                        <option value="Saving" {{ ( $goal->type == "Saving") ? 'selected' : '' }}>Saving</option>
-                                        <option value="Miscellaneous" {{ ( $goal->type == "Miscellaneous") ? 'selected' : '' }}>Miscellaneous</option>
-                                    </select>
                                 </div>
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-success mt-4">{{ __('Save') }}</button>

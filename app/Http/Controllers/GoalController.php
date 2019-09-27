@@ -97,7 +97,7 @@ class GoalController extends Controller
     {
         $goal = Goal::find($id);
         $goal->goal = $request->get('amount');
-        $goal->type = $request->get('type');
+        $goal->description = $request->get('description');
         $goal->save();
 
          return redirect()->route('goal.index')->withStatus(__('Record has been updated.'));
